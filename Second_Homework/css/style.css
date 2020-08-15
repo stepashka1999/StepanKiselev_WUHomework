@@ -1,0 +1,35 @@
+h2{
+    padding: 5px;
+    color: white;
+    background-color: green;
+}
+
+.header-first-tb{
+    /* Block model */
+    margin-bottom: 100px;
+    width: 100px;
+
+    /* Decoration */
+    color: white;
+    background-color: blue;
+}
+
+.red-text{
+    color: red;
+}
+
+.second-heading{
+    padding: 40px;
+}
+
+.second-p{
+    margin-left: 100px;
+}
+
+.skills-list{
+    font-size: 30px;
+}
+
+.skills-list li{
+    border: 1px solid black;
+}
