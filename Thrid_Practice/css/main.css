@@ -1,0 +1,166 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: #201b2d;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+div, p, input, button, form, span, a, ul, li, ol {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h5, h6 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 100px;
+    padding-bottom: 225px;
+    color: #fff;
+
+    background: rgb(71, 62, 95);
+    background: linear-gradient(135deg, rgba(71, 62, 95, 1) 0%, rgba(42, 34, 64, 1) 50%);
+}
+
+p{    
+    line-height: 1.66em;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer{
+    width: 490px;
+    margin-top: 176px;
+}
+
+.title{
+    font-size: 36px;
+}
+
+.title span{
+    color: #48ed8e;
+}
+
+.intro{
+    width: 380px;
+    margin-top: 30px;
+    margin-bottom: 37px;
+}
+
+.btn{
+    display: block;
+    width: 205px;
+    text-align: center;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+
+    text-decoration: none;
+    background: #ed9619;
+    color: #fff;
+    border-radius: 100px;
+    padding: 19px 0;
+
+    transition: all 0.4s ease;
+}
+
+.btn:hover{
+    background: #d9860e;
+}
+
+
+.desctop{
+    margin-top: 70px;
+}
+
+.section-title{
+    font-size: 30px;
+}
+
+.learn{
+    padding-top: 108px;
+    padding-bottom: 120px;
+}
+
+.skills{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-title{
+    font-size: 18px;
+}
+
+.skill-text{
+    margin-top: 7px;
+}
+
+.skills li{
+    list-style: none;
+    width: 350px;
+    padding-left: 100px;
+}
+
+.fs{
+    background: url('../img/icon1.jpg') no-repeat left top;
+}
+
+.ss{
+    width: 400px !important;
+    background: url('../img/icon2.jpg') no-repeat left top;
+}
+
+.ts{
+    background: url('../img/icon3.jpg') no-repeat left top;
+}
+
+.mail{
+    padding-top: 173px;
+    padding-bottom: 190px;
+
+    background: #efecf4;
+}
+
+.input{
+    font-family: 'Open Sans', sans-serif;
+
+    width: 474px;
+    height: 54px;
+    padding-left: 38px;
+    border: 1px solid #bfb8d1;
+    font-size: 15px;
+    border-radius: 100px;
+}
+
+.btn-form{
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 11px;
+}
+
+.form{
+    margin-top: 40px;
+}
+
+.footer{
+    padding: 33px 0;
+    background: #201b2d;
+}
+
+.credits{
+    font-size: 14px;
+    color: #d4cee3;
+}
