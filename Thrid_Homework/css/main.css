@@ -3,7 +3,8 @@ body {
     margin: 0;
     color: #201b2d;
     font-size: 15px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
 }
 
 div, p, input, button, form, span, a, ul, li, ol {
@@ -12,7 +13,7 @@ div, p, input, button, form, span, a, ul, li, ol {
 
 h1, h2, h3, h5, h6 {
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 900;
 }
 
@@ -95,10 +96,11 @@ p {
     padding: 0;
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
 }
 
 .skill-title {
-    font-size: 18px;
+    font-size: 19px;
 }
 
 .skill-logo{
@@ -113,11 +115,9 @@ p {
 
 .skills li {
     list-style: none;
-    width: 350px;
-    padding-left: 100px;
+    max-width: 300px;
     text-align: center;
 }
-
 
 .mail {
     text-align: center;
@@ -150,6 +150,7 @@ p {
 }
 
 .footer {
+    font-family: 'Open Sans', sans-serif;
     padding: 60px 0;
     background: #164d7a;
     text-align: center;
